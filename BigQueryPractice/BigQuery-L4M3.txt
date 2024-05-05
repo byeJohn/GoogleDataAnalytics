@@ -26,3 +26,9 @@ SELECT
   COALESCE(product, product_code) AS product_info
 FROM
   `ultimate-aspect-411807.customer_data.customer_purchase`
+
+SELECT *
+FROM
+  ultimate-aspect-411807.movie_data.movies
+WHERE
+  Genre = 'Comedy'
